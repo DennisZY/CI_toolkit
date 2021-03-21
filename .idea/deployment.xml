@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="sshConfig://hzy@10.21.50.71:22 key/home/hzy/anaconda3/envs/causal_venv/bin/python3.8" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
+    <serverData>
+      <paths name="hzy@10.21.50.71:22">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="sshConfig://hzy@10.21.50.71:22 key/home/hzy/anaconda3/envs/causal_venv/bin/python3.8">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_572" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

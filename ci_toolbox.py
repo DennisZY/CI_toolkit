@@ -10,8 +10,6 @@ def gauss_ci_test_generator(df, alpha):
     n = df.shape[0]
 
     def gauss_ci_test(x, y, s):
-        nonlocal cov
-        nonlocal n
         if len(s) == 0:
             r = cov[x, y]
         elif len(s) == 1:
@@ -45,6 +43,7 @@ def chi_square(obs):
     p = distributions.chi2.sf(stat, dof)
     print(p)
     return stat, p
+
 
 def gtest(obs):
     rows = np.asmatrix(np.sum(obs, axis=0))
